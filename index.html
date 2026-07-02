@@ -312,5 +312,34 @@ Transcultural Atelier – Maison du Regard
         </div>
       </aside>
     </div>
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const logo = document.querySelector(".footer-logo");
+
+    let pressTimer;
+
+    function startPress() {
+        pressTimer = setTimeout(function () {
+            window.location.href = "expert-submission.html";
+        }, 3000); // 3 секунди
+    }
+
+    function cancelPress() {
+        clearTimeout(pressTimer);
+    }
+
+    // Комп'ютер
+    logo.addEventListener("mousedown", startPress);
+    logo.addEventListener("mouseup", cancelPress);
+    logo.addEventListener("mouseleave", cancelPress);
+
+    // Телефон
+    logo.addEventListener("touchstart", startPress);
+    logo.addEventListener("touchend", cancelPress);
+    logo.addEventListener("touchcancel", cancelPress);
+
+});
+</script>
   </body>
 </html>
