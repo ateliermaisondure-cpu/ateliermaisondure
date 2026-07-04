@@ -319,3 +319,17 @@ ol {
 .submission-button:hover {
   background: #7f6034;
 }
+/*facebook*/
+.footer-social-link {
+  display: inline-block;
+  margin-top: 0.6rem;
+  color: #9b7640;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.footer-social-link:hover {
+  color: #7f6034;
+  text-decoration: underline;
+}
