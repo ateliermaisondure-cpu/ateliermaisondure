@@ -319,3 +319,84 @@ ol {
 .submission-button:hover {
   background: #7f6034;
 }
+
+/* Documents block: About / Collaboration */
+
+.document-links {
+  margin: 2.5rem 0;
+  padding: 0;
+}
+
+.document-links .about-title {
+  margin-bottom: 1rem;
+}
+
+.document-links p {
+  max-width: 760px;
+  margin-bottom: 1.4rem;
+  line-height: 1.7;
+}
+
+/* Document list inside this block only */
+.document-links .my-projects-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1.5rem 0 0;
+}
+
+.document-links .my-projects-list li {
+  margin-bottom: 1.4rem;
+  padding: 1rem 1rem 1rem 1.2rem;
+  border-left: 4px solid #9b7640;
+  background: rgba(155, 118, 64, 0.06);
+  border-radius: 4px;
+}
+
+/* Document title */
+.document-links .my-projects-list strong {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+/* Language/version line */
+.document-links .my-projects-list span {
+  display: block;
+  margin-bottom: 0.45rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Download link */
+.document-links .my-projects-list a {
+  display: inline-block;
+  margin-top: 0.25rem;
+  color: #9b7640;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.document-links .my-projects-list a:hover {
+  color: #7f6034;
+  text-decoration: underline;
+}
+/* Download link as a small button */
+
+.document-links .my-projects-list a {
+  display: inline-block;
+  margin-top: 0.35rem;
+  padding: 0.55rem 1rem;
+  background: #9b7640;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
+
+.document-links .my-projects-list a:hover {
+  background: #7f6034;
+  color: #ffffff;
+  text-decoration: none;
+}
