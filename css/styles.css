@@ -400,3 +400,28 @@ ol {
   color: #ffffff;
   text-decoration: none;
 }
+
+/* Compact style for Open Expert Reports only */
+
+.open-reports .my-projects-list li {
+  padding: 0.9rem 1rem 1rem 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.open-reports .my-projects-list strong {
+  font-size: 0.98rem;
+  line-height: 1.35;
+}
+
+.open-reports .my-projects-list span {
+  display: block;
+  font-size: 0.9rem;
+  line-height: 1.42;
+  margin-bottom: 0.35rem;
+}
+
+.open-reports .my-projects-list a {
+  margin-top: 0.6rem;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.9rem;
+}
