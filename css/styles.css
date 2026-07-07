@@ -425,3 +425,27 @@ ol {
   padding: 0.45rem 0.85rem;
   font-size: 0.9rem;
 }
+/* Collapsible abstract block for Open Expert Reports */
+
+.open-reports .report-details {
+  margin-top: 0.6rem;
+  margin-bottom: 0.7rem;
+  font-size: 0.9rem;
+  line-height: 1.42;
+}
+
+.open-reports .report-details summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: #9b7640;
+  margin-bottom: 0.5rem;
+}
+
+.open-reports .report-details summary:hover {
+  color: #7f6034;
+  text-decoration: underline;
+}
+
+.open-reports .report-details p {
+  margin: 0.45rem 0;
+}
