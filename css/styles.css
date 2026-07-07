@@ -449,3 +449,56 @@ ol {
 .open-reports .report-details p {
   margin: 0.45rem 0;
 }
+/* Top navigation for Open Expert Reports page */
+
+.open-reports-topbar {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  padding: 1.2rem 1.4rem;
+  border-left: 4px solid #9b7640;
+  background: rgba(155, 118, 64, 0.06);
+  border-radius: 4px;
+}
+
+.open-reports-topbar-logo img {
+  width: 95px;
+  height: auto;
+  display: block;
+}
+
+.open-reports-topbar-info {
+  flex: 1;
+}
+
+.open-reports-topbar-info .my-profession {
+  margin: 0 0 0.25rem;
+}
+
+.open-reports-topbar-info .my-name {
+  margin: 0 0 0.35rem;
+}
+
+.open-reports-topbar-info .my-descr {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.open-reports-topbar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.open-reports-topbar-menu a,
+.open-reports-topbar-menu a:visited {
+  color: #1f1f1f;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.open-reports-topbar-menu a:hover {
+  color: #9b7640;
+}
