@@ -502,3 +502,42 @@ ol {
 .open-reports-topbar-menu a:hover {
   color: #9b7640;
 }
+/* Footer for Open Expert Reports page */
+
+.open-reports-page .site-footer {
+  max-width: 1100px;
+  margin: 2rem auto 0;
+  padding: 1.5rem 2rem 2rem;
+}
+
+.open-reports-page .footer-brand {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.open-reports-page .footer-logo {
+  width: 70px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.open-reports-page .footer-text p {
+  margin: 0 0 0.8rem;
+}
+
+.open-reports-page .footer-contacts {
+  margin: 0.8rem 0;
+}
+
+.open-reports-page .footer-contacts a,
+.open-reports-page .footer-contacts a:visited {
+  color: #9b7640;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.open-reports-page .footer-contacts a:hover {
+  color: #7f6034;
+  text-decoration: underline;
+}
