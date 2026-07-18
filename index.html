@@ -54,10 +54,105 @@
       rel="stylesheet"
     />
  <!-- Structured Data (Schema.org) -->
-    <link rel="stylesheet" href="css/styles.css" />
-      <script type="application/ld+json">
-    ...
-  </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://regardatelier.org/#website",
+      "url": "https://regardatelier.org/",
+      "name": "Transcultural Atelier · Maison du Regard",
+      "alternateName": "Maison du Regard",
+      "inLanguage": [
+        "en",
+        "fr"
+      ],
+      "publisher": {
+        "@id": "https://regardatelier.org/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://regardatelier.org/#organization",
+      "name": "Transcultural Atelier · Maison du Regard",
+      "alternateName": "Maison du Regard",
+      "url": "https://regardatelier.org/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://regardatelier.org/#logo",
+        "url": "https://regardatelier.org/img/embl.png",
+        "contentUrl": "https://regardatelier.org/img/embl.png"
+      },
+      "email": "mailto:contact@regardatelier.org",
+      "foundingDate": "2026",
+      "founder": {
+        "@id": "https://regardatelier.org/#tetiana-krupa"
+      },
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61591721396728"
+      ],
+      "knowsAbout": [
+        "Cultural Heritage",
+        "Archaeology",
+        "History",
+        "Ethnology",
+        "Conservation and Restoration",
+        "Textile Conservation",
+        "Material Culture",
+        "Heritage Documentation",
+        "Digital Heritage",
+        "Creative Industries",
+        "Transcultural Studies",
+        "Eurasian Studies",
+        "Interdisciplinary Research",
+        "Expert Research"
+      ],
+      "areaServed": [
+        "Ukraine",
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Uzbekistan",
+        "Central Asia",
+        "South Caucasus",
+        "Europe",
+        "The broader Eurasian cultural space"
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://regardatelier.org/#tetiana-krupa",
+      "name": "Tetiana Krupa",
+      "jobTitle": "Founder and Scientific Director",
+      "url": "https://regardatelier.org/about.html",
+      "affiliation": {
+        "@id": "https://regardatelier.org/#organization"
+      },
+      "sameAs": [
+        "https://orcid.org/0000-0001-6707-6446",
+        "https://scholar.google.com/citations?user=DtpUxY8AAAAJ",
+        "https://www.researchgate.net/profile/Tetiana-Krupa"
+      ],
+      "knowsAbout": [
+        "Cultural Heritage",
+        "Archaeology",
+        "History",
+        "Ethnology",
+        "Conservation and Restoration",
+        "Archaeological Textiles",
+        "Textile Conservation",
+        "Material Culture",
+        "Heritage Documentation",
+        "Interdisciplinary Research",
+        "Expert Research"
+      ],
+      "worksFor": {
+        "@id": "https://regardatelier.org/#organization"
+      }
+    }
+  ]
+}
+</script>
   </head>
   <body>
     <!--Wrapper-->
