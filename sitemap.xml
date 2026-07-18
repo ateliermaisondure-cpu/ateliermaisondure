@@ -1,1 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <url>
+    <loc>https://regardatelier.org/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://regardatelier.org/about.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://regardatelier.org/Research.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://regardatelier.org/projects.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://regardatelier.org/fields.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://regardatelier.org/collaborations.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://regardatelier.org/expert-submission.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://regardatelier.org/international_expert_surveys.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://regardatelier.org/open_expert_report.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
